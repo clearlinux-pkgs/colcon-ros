@@ -4,7 +4,7 @@
 #
 Name     : colcon-ros
 Version  : 0.2.11
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/9e/98/2dc17c598b62dc43f31d818bd537b2136c107eb4485c8e6e1e22ab4ccbba/colcon-ros-0.2.11.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9e/98/2dc17c598b62dc43f31d818bd537b2136c107eb4485c8e6e1e22ab4ccbba/colcon-ros-0.2.11.tar.gz
 Summary  : Extension for colcon to support ROS packages.
@@ -49,7 +49,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1533001544
+export SOURCE_DATE_EPOCH=1533003064
 python3 setup.py build -b py3
 
 %install
