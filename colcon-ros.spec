@@ -4,7 +4,7 @@
 #
 Name     : colcon-ros
 Version  : 0.2.11
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/9e/98/2dc17c598b62dc43f31d818bd537b2136c107eb4485c8e6e1e22ab4ccbba/colcon-ros-0.2.11.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9e/98/2dc17c598b62dc43f31d818bd537b2136c107eb4485c8e6e1e22ab4ccbba/colcon-ros-0.2.11.tar.gz
 Summary  : Extension for colcon to support ROS packages.
@@ -13,6 +13,11 @@ License  : Apache-2.0
 Requires: colcon-ros-python3
 Requires: colcon-ros-python
 Requires: catkin_pkg
+Requires: colcon-cmake
+Requires: colcon-core
+Requires: colcon-pkg-config
+Requires: colcon-python-setup-py
+Requires: colcon-recursive-crawl
 BuildRequires : buildreq-distutils3
 
 %description
@@ -44,7 +49,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532981150
+export SOURCE_DATE_EPOCH=1533001544
 python3 setup.py build -b py3
 
 %install
