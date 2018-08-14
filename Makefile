@@ -1,5 +1,5 @@
 PKG_NAME := colcon-ros
-URL = https://files.pythonhosted.org/packages/7d/3e/0c93c0ccfcd528efd494e0421e18fa50b8de8152a099fe12263309521ca0/colcon-ros-0.3.1.tar.gz
+URL = https://files.pythonhosted.org/packages/c9/d5/5e79f08b0ddfbd99d9284a01b06ee10e44ac23c02f476e84f72892acf7c1/colcon-ros-0.3.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
