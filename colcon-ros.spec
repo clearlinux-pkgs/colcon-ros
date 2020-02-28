@@ -4,7 +4,7 @@
 #
 Name     : colcon-ros
 Version  : 0.3.15
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/68/1e/b63f64959cb1af0fd1acf86aa00cb38ae6511db467d25db30ed17db35b54/colcon-ros-0.3.15.tar.gz
 Source0  : https://files.pythonhosted.org/packages/68/1e/b63f64959cb1af0fd1acf86aa00cb38ae6511db467d25db30ed17db35b54/colcon-ros-0.3.15.tar.gz
 Summary  : Extension for colcon to support ROS packages.
@@ -28,6 +28,7 @@ BuildRequires : colcon-recursive-crawl
 %description
 colcon-ros
 ==========
+
 An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `ROS packages <http://www.ros.org>`_.
 
 %package python
@@ -43,6 +44,7 @@ python components for the colcon-ros package.
 Summary: python3 components for the colcon-ros package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-ros)
 
 %description python3
 python3 components for the colcon-ros package.
@@ -57,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581185477
+export SOURCE_DATE_EPOCH=1582911088
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
