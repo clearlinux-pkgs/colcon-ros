@@ -4,7 +4,7 @@
 #
 Name     : colcon-ros
 Version  : 0.3.16
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/8b/e8/c9ea81cf41ff31cbc5c6529414dde5ba632a9dbe3256a2a96eb9a9e1acc3/colcon-ros-0.3.16.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8b/e8/c9ea81cf41ff31cbc5c6529414dde5ba632a9dbe3256a2a96eb9a9e1acc3/colcon-ros-0.3.16.tar.gz
 Summary  : Extension for colcon to support ROS packages.
@@ -26,10 +26,7 @@ BuildRequires : colcon-python-setup-py
 BuildRequires : colcon-recursive-crawl
 
 %description
-colcon-ros
 ==========
-
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to support `ROS packages <http://www.ros.org>`_.
 
 %package python
 Summary: python components for the colcon-ros package.
@@ -44,13 +41,13 @@ python components for the colcon-ros package.
 Summary: python3 components for the colcon-ros package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-ros)
-Requires: pypi(colcon-pkg-config)
-Requires: pypi(colcon-recursive-crawl)
-Requires: pypi(colcon-cmake)
-Requires: pypi(colcon-python-setup-py)
-Requires: pypi(catkin-pkg)
-Requires: pypi(colcon-core)
+Provides: pypi(colcon_ros)
+Requires: pypi(catkin_pkg)
+Requires: pypi(colcon_cmake)
+Requires: pypi(colcon_core)
+Requires: pypi(colcon_pkg_config)
+Requires: pypi(colcon_python_setup_py)
+Requires: pypi(colcon_recursive_crawl)
 
 %description python3
 python3 components for the colcon-ros package.
@@ -65,8 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583440716
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583528822
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
