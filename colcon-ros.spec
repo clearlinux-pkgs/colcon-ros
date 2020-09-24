@@ -4,7 +4,7 @@
 #
 Name     : colcon-ros
 Version  : 0.3.20
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/51/d7/f456af8825cc5115e045beb2b168041ddc2cef6409c2c92c1bd33e7f93d9/colcon-ros-0.3.20.tar.gz
 Source0  : https://files.pythonhosted.org/packages/51/d7/f456af8825cc5115e045beb2b168041ddc2cef6409c2c92c1bd33e7f93d9/colcon-ros-0.3.20.tar.gz
 Summary  : Extension for colcon to support ROS packages.
